@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type = "image/jpg" href = "images/broken.jpg">
+    </head>
+    <body>
+        <h1>This is an H1 heading</h1>
+        <h2>This is an H2 heading</h2>
+        <h3>This is an H3 heading</h3>
+        <hr>
+        <br>
+
+        <a href = "https://www.youtube.com/" target ="_blank" title="Goes to youtube">Click me</a>
+        <br>
+        <a href = "lyrics.html">
+            song lyrics
+        </a>
+        <br>
+
+        <a href = "mailto:test@fake">
+            email me
+        </a>
+
+        <p>Lorem ipsum dolor sit amet consectetur,  
+            adipisicing elit. Rerum eaque mollitia at, temporibus 
+            voluptate totam ad harum architecto esse! Ea, magni nulla? 
+            Laudantium saepe minima ratione libero veniam eius voluptatem!
+        </p>
+
+        <!--This is a comment-->
+        <a href = "https://www.minecraft.net/en-us">
+            <img src="images/Screenshot (133).png"
+        height ="200"
+        alt="This is a picture of a dog">
+        </a>
+
+        <p>Champions</p>
+        <audio controls loop>
+            <source src = "audio/Champion - Telecasted.mp3" type = "audio/mpeg">
+        </audio>
+        <p>Seagull</p>
+        <audio controls>
+            <source src = "audio/Seagull - Telecasted.mp3">
+        </audio>
+
+        <p>Sky</p>
+        <audio controls>
+            <source src = "audio/Sly Sky - Telecasted.mp3">b
+        </audio>
+
+        <video src = "video/random.mp4" width = "500px" controls autoplay muted loop></video>
+        
+        <p>This is normal text</p>
+        <p>This is <b>bold</b> text</p>
+        <p>This is <i>italic</i> text</p>
+        <p>This is <u>underlined</u> text</p>
+        <p>This is <del>deleted</del>text</p>
+        <p>This is normal text</p>
+        <p>This is normal text</p>
+        <p>This is normal text</p>
+
+        <h1><span style="background-color: yellow;">This is a span</span></h1>
+        <h1><div style="background-color: red;">This is a div</div></h1>
+
+        <p><span style="color: blue;">This is a paragraph</span></p>
+        <p><span style="color: green;">lorem   
+            ipsum dolor sit amet consectetur adipisicing elit. 
+            Quisquam, voluptatibus. Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit.</span> Quisquam, voluptatibus.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quisquam, voluptatibus. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Quisquam, voluptatibus.
+        </p>
+
+        <h4>Shopping List</h4>
+        <ul>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread</li>
+            <li>butter</li>
+            <li>coffee supplies</li>
+            <ul>
+                <li>coffee beans</li>
+                <li>milk</li>
+                <li>sugar</li>
+            </ul>
+        </ul>
+
+        <h4>To do List</h4>
+        <ol>
+            <li>Go to the store</li>
+            <li>Buy groceries</li>
+            <li>Go home</li>
+            <li>Make dinner</li>
+            <li>Eat dinner</li>
+        </ol>
+
+        <h4>My favorite elements</h4>
+        <dl style="background-color: lightblue; border: 1px solid black;">
+            <dt>dragon</dt>
+            <dd>A large, serpentine creature that is often depicted as having wings and the ability to fly.</dd>
+
+            <dt>fire</dt>
+            <dd>A natural element that is often associated with destruction and chaos.</dd>
+
+            <dt>water</dt>
+            <dd>A natural element that is often associated with fluidity and adaptability.</dd>
+        </dl>
+
+        <h3>Store hours</h3>
+        <table border ="1" style = "background-color: black; color: white;">
+            <tr align="center" style = "background-color: blue;">
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+                <th width="100">Sunday</th>
+            </tr>
+            <tr align="center">
+                <td>Closed</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>9am - 5pm</td>
+                <td>10am - 4pm</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+        <a href = "https://www.youtube.com/watch?v=syFZfO_wfMQ&ab_channel=OneDirectionVEVO">
+            <button onclick="dosomething()" style="font-size: 16px; background-color: teal; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 25px">click me</button>
+
+            <p id ="greeting">Hello</p>
+            <script>
+                function dosomething() {
+                   document.getElementById("greeting").innerHTML = "Hello World!"; 
+                }
+            </script>
+        </a>
+        
+
+    </body>
+</html>
