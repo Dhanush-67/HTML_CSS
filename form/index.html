@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">username:</label>
+        <input type = "text" id="username" placeholder="Spongebob" minlength="6" maxlength="20" required>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="password" minlength="6" maxlength="20" required>
+        <br>
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="spongebob@example.com" required>
+        <br>
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <label for="bday">birthday:</label>
+        <input type="date" id="bday" required>
+        <br>
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" min="1" max="100" required>
+        <br>
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr." required>
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs." required>
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." name="title" value="Ms." required>
+        <br>
+        <label for="payment">payment</label>
+        <select id="payment" name="payment" required>
+            <option value="credit">credit</option>
+            <option value="debit">debit</option>
+            <option value="paypal">paypal</option>
+        </select>
+        <br>
+
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <br>
+
+        <label for="comments">comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+        <br>
+        <label for="file">file:</label>
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif">
+        <br>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>
