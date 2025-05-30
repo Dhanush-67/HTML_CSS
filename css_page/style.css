@@ -1,0 +1,64 @@
+@font-face{
+    src: url(fonts/Barriecito-Regular.ttf);
+    font-family: "Barriecito";
+}
+
+body{
+    background-color:slategray;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Barriecito", sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(9, 161, 164);
+    border-radius: 10px;
+    text-shadow: 0px 3px 1px rgba(20, 61, 209, 0.5), 1px 3px 1px rgba(231, 16, 16, 0.5);
+}
+
+#box1{
+    width: 100px;
+    height: 100px; 
+    background-color: rgb(162, 198, 162);
+    box-shadow: 3px 3px 1px rgba(43, 86, 62, 0.5)
+}
+p{
+    border-bottom: 2px solid rgb(189, 161, 20);
+    border-left: 2px solid rgb(189, 161, 20);
+    border-right: 2px solid rgb(189, 161, 20);
+    border-top: 2px solid rgb(189, 161, 20);
+    border-radius: 10px;
+}
+.odd{
+    color: white;
+    text-align: center;
+    font-family: "Barriecito", sans-serif;
+}
+.even{
+    color: rgb(201, 26, 172);
+    text-align: center;
+    font-weight: bold;
+    font-family: "Barriecito", sans-serif;
+}
+#para1{
+    color: tomato;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Barriecito", sans-serif;
+}
+#para2{
+    color: rgb(255, 165, 0);
+    font-size: 20px;
+    text-align: center;
+}
+#para3{
+    color: lightgreen;
+    font-size: 20px;
+    text-align: center;
+}
+#para4{
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+    text-align: center;
+}
