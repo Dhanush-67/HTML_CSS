@@ -1,0 +1,96 @@
+/* body{
+    display :flow-root;
+} */
+
+
+.box{
+    border: 5px solid;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    margin: auto;
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;
+    
+
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+
+#box1{
+    background-color: rgb(151, 13, 13);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin: auto;
+    
+}
+
+#box2{
+    background-color: rgb(13, 151, 13);
+}
+
+#border{
+    margin-top: 20px;
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+    overflow-clip-margin: 3px;
+}
+
+#display{
+    background-color: rgb(13, 13, 151);
+    height: 100px;
+    display: block;
+    visibility: visible;
+}
+ 
+span{
+    background-color: rgb(151, 151, 13);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.new_box{
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(151, 13, 151);
+    height: auto;
+    width: 40%;
+    float: left;
+    text-align: center;
+    max-width: 25%;
+    min-height: 50%;
+}
+
+.container{
+    background-color: rgb(13, 151, 151);
+    height: 100vh;
+}
+
+#square{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 98, 57);
+    position: static;
+    top: 0px;
+}
+
+#inner-square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 60, 175);
+    position: static;
+    top: 50px;
+    left: 50px;
+}
