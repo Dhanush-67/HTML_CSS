@@ -1,3 +1,3 @@
 # HTML + CSS
 
-html and css excercises
+html and css excercises.
