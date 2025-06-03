@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin: 20px;
+}
+
+#container{
+    border: 2px solid black;
+}
+
+#container + p{
+    background-color: lightblue;
+}
+
+a:link{
+    color: green;
+}
+
+/* a:hover{
+    color: red;
+    font-size: 1.1em;
+} */
+
+/* a:active{
+    color: blue;
+    font-size: 1.2em;
+} */
+
+a:visited{
+    color: grey;
+}
+
+li.list-item:hover{
+    background-color: yellow;
+}
+
+li.list-item:not(:hover){
+    background-color: lightgrey;
+}
+
+li.list-item:nth-child(2n){
+    background-color: lightgreen;
+}
+
+#greeting p{
+    background-color: lightcoral;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    color: darkblue;
+}
+
+p::first-line{
+    font-weight: bold;
+    color: darkred;
+}
+
+p::selection{
+    background-color: yellow;
+    color: blue;
+}
+
+#apple::after{
+    content: "🍎";
+}
+#banana::after{
+    content: "🍌";
+}
+#cherry::after{
+    content: "🍒";
+}
+
+#fruit li::marker{
+    content: "✔️";
+    color: green;
+    font-size: 1.2em;
+}
+
+.pagination{
+    text-align: center;
+
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: #4CAF50;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #aaaba0;
+    border-radius: 5px;
+}
+
+.dropdown button{
+    background-color: #6896db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    position: absolute;
+    background-color: #ded5d5;
+    min-width: 70px;
+    box-shadow: 2px 8px 5px black;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: #4CAF50;
+}
+
+.dropdown a:hover{
+    background-color: #cabfbf;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.navbar ul{
+    background-color: #333;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #111;
+}
+
+.navbar li{
+    float: left;
+}
+
