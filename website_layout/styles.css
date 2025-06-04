@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #4CAF50; /* Green background */
+    text-align: center; /* Centered text */
+    padding: 25px; /* Padding around the text */
+}
+
+footer{
+    display: block; /* Ensure footer is a block element */
+    clear: both; /* Clear floats */
+    background-color: #4CAF50; /* Green background */
+    text-align: center; /* Centered text */
+    padding: 25px; /* Padding around the text */
+}
+
+.navbar{
+    background-color: #333; /* Dark background for the navbar */
+    height: 50px; /* Fixed height for the navbar */
+}
+
+aside{
+    width: 20%;
+    float: left; /* Float to the left */
+    padding:10px; /* Padding around the aside */
+}
+section{
+    width: 40%;
+    float: left; /* Float to the left */
+    padding: 10px; /* Padding around the section */
+}
+article{
+    width: 40%;
+    float: left; /* Float to the left */
+    padding: 10px; /* Padding around the article */ 
+}
+
+@media screen and (max-width: 600px){
+    aside,section,article{
+        width: 100%
+    }
+}
+
+.gallery{
+    display:inline-block; /* Allow elements to be inline-block */
+    border: 1px solid #a09d9d; /* Border around gallery items */
+    margin: 5px; /* Margin around gallery items */
+    width: 300px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center; 
+}
+
+.gallery:hover{
+    border: 3px solid #323232; /* Change border color on hover */
+}
+
+.gallery img{
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icons a{
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 10px; /* Space between icons */
+}
+
+.material-symbols-outlined:hover{
+    color: #4CAF50; /* Change color on hover */
+}
