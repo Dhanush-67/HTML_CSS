@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* height: 90vh; */
+    /* border: 10px solid black; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.boss{
+ width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    font-size: 13em;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    transform:rotateZ(45deg);
+    animation-name: shrink;
+    animation-duration: 2s;
+}
+
+#box1 {
+   background-color: forestgreen;
+   margin-top: 150px;
+}
+
+#box6 {
+   background-color: tomato;
+}
+
+#box7 {
+   background-color: palevioletred;
+}
+#box2 {
+    background-color: green;
+}
+#box3 {
+    background-color: blue;
+}
+#box4 {
+    background-color: yellow;
+}
+
+@keyframes slideLeft{
+    from{
+        transform: translateX(100px);
+    }
+}
+
+@keyframes slideRight{
+    to{
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideUp{
+    from{
+        transform: translateY(100px);
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes shrink{
+    50%{
+        transform: scale(0.5, 0.5);
+    }
+}
+
+@keyframes fade{
+    50%{
+        opacity: 0.5;
+    }
+}
